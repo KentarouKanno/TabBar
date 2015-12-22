@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		361A06691C29DEB60016802E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361A06681C29DEB60016802E /* FirstViewController.swift */; };
+		361A066B1C29DF900016802E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361A066A1C29DF900016802E /* SecondViewController.swift */; };
+		361A066D1C29DFD60016802E /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361A066C1C29DFD60016802E /* ThirdViewController.swift */; };
+		361A066F1C29DFF80016802E /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361A066E1C29DFF80016802E /* FourthViewController.swift */; };
 		36A379191C29D68100881562 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A379181C29D68100881562 /* AppDelegate.swift */; };
 		36A3791B1C29D68100881562 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A3791A1C29D68100881562 /* TabBarController.swift */; };
 		36A3791E1C29D68100881562 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36A3791C1C29D68100881562 /* Main.storyboard */; };
@@ -15,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		361A06681C29DEB60016802E /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstViewController.swift; path = ViewController/FirstViewController.swift; sourceTree = "<group>"; };
+		361A066A1C29DF900016802E /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = ViewController/SecondViewController.swift; sourceTree = "<group>"; };
+		361A066C1C29DFD60016802E /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThirdViewController.swift; path = ViewController/ThirdViewController.swift; sourceTree = "<group>"; };
+		361A066E1C29DFF80016802E /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FourthViewController.swift; path = ViewController/FourthViewController.swift; sourceTree = "<group>"; };
 		36A379151C29D68100881562 /* tab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36A379181C29D68100881562 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36A3791A1C29D68100881562 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
@@ -35,6 +43,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		361A06671C29DE8D0016802E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				361A06681C29DEB60016802E /* FirstViewController.swift */,
+				361A066A1C29DF900016802E /* SecondViewController.swift */,
+				361A066C1C29DFD60016802E /* ThirdViewController.swift */,
+				361A066E1C29DFF80016802E /* FourthViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
 		36A3790C1C29D68100881562 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +75,7 @@
 			children = (
 				36A379181C29D68100881562 /* AppDelegate.swift */,
 				36A3791A1C29D68100881562 /* TabBarController.swift */,
+				361A06671C29DE8D0016802E /* ViewController */,
 				36A3791C1C29D68100881562 /* Main.storyboard */,
 				36A3791F1C29D68100881562 /* Assets.xcassets */,
 				36A379211C29D68100881562 /* LaunchScreen.storyboard */,
@@ -135,6 +155,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				361A066F1C29DFF80016802E /* FourthViewController.swift in Sources */,
+				361A066B1C29DF900016802E /* SecondViewController.swift in Sources */,
+				361A06691C29DEB60016802E /* FirstViewController.swift in Sources */,
+				361A066D1C29DFD60016802E /* ThirdViewController.swift in Sources */,
 				36A3791B1C29D68100881562 /* TabBarController.swift in Sources */,
 				36A379191C29D68100881562 /* AppDelegate.swift in Sources */,
 			);
@@ -284,6 +308,7 @@
 				36A379291C29D68100881562 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
